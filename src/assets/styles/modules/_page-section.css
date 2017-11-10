@@ -1,0 +1,25 @@
+.page-section {
+  padding: 1.2rem 0;
+
+  @mixin atMedium {
+    padding: 4.5rem 0;
+  }
+
+  &--red {
+    background-color: $red;
+    color: $white;
+  }
+
+  &--technologies {
+    background-color: $blue;
+
+    @mixin atLarge {
+
+      &.lazyloaded {
+        background: url('/assets/images/technologies-bg.jpg') top center no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+}
+

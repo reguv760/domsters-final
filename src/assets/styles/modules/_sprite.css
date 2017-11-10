@@ -1,0 +1,21 @@
+    .icon {
+      background-image: url('/temp/sprite/styles/sprite-90392ad7.svg');
+    }
+
+  .icon--camera {
+    width: 34px;
+    height: 34px;
+    background-position: 0 100%;
+  }
+
+  .icon--dice {
+    width: 34px;
+    height: 34px;
+    background-position: 7.7272727272727275% 100%;
+  }
+
+  .icon--paints {
+    width: 474px;
+    height: 394px;
+    background-position: 0 0;
+  }

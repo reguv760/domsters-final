@@ -1,0 +1,52 @@
+.primary-nav {
+  padding-top: 1rem;
+
+  @mixin atMedium {
+    padding-top: 0;
+  }
+  
+  &--pull-right {
+    @mixin atLarge {
+      float: right;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    @mixin clearfix;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 0.7rem;
+    
+    @mixin atMedium {
+      float: left;
+    }
+  }
+
+  a {
+    background-color: rgba($blue, 0.5);
+    color: $white;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    text-decoration: none;
+
+    @mixin atMedium {
+      background-color: transparent;
+      font-size: 3rem;
+      padding: 1.2rem 0;
+
+      &.is-current-link {
+        color: #fabb69;
+      }
+    }
+  }
+}
+

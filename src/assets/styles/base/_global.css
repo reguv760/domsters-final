@@ -1,0 +1,33 @@
+/* Great way to deal with border-box issue */
+* {
+  box-sizing: border-box;
+}
+
+html { 
+  font-size: 62.5%;
+}
+
+body {
+  /* let's have fun with a free Google font */
+  font-family: 'Lato','sans-serif';
+  font-size: 2rem;
+  background-color: $red;
+}
+
+h1 {
+  font-family: 'Niconne', cursive;
+  font-size: 6rem;
+}
+
+/* easy way to make all your images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* links */
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: $blue;
+}
