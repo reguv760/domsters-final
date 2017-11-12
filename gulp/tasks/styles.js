@@ -29,5 +29,5 @@ gulp.task('styles', () => {
       this.emit('end');
     })
     .pipe(sourcemaps.write('.')) // path relative to the outputted css file
-    .pipe(gulp.dest('./src/temp/styles'));
+    .pipe(gulp.dest('./src/temp/css'));
 });

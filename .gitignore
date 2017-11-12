@@ -1,5 +1,5 @@
 node_modules/
-app/temp/*/**
+src/temp/*/**
 dist
 
 # OS or Editor folders
