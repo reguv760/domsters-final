@@ -33,19 +33,19 @@ gulp.task('createSprite', ['beginClean'], () =>
     // use the template var
     .pipe(svgSprite(config))
     // output generated sprite to tmp file
-    .pipe(gulp.dest('./src/temp/sprite/'))
+    .pipe(gulp.dest('./src/temp/sprite'))
 );
 
 gulp.task('copySpriteGraphic', () =>
   gulp
-    .src('./src/temp/sprite/styles/**/*.{svg,png}')
+    .src('./src/temp/sprite/css/**/*.{svg,png}')
     .pipe(gulp.dest('./src/assets/images/sprites'))
 );
 
 gulp.task('copySpriteCSS', ['createSprite'], () =>
   gulp
     // grab all the sprites generated
-    .src('./src/temp/sprite/styles/*.css')
+    .src('./src/temp/sprite/css/*.css')
     // rename to partial `_sprites`
     .pipe(rename('_sprite.css'))
     // copy file and move copy to modules directory
