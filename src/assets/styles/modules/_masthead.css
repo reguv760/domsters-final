@@ -1,0 +1,13 @@
+/* parent */
+.masthead
+{
+  min-height:100px;
+
+  &__headline {
+    margin:0px auto;
+ /*   border: 2px dashed green;*/
+  }
+
+
+}
+

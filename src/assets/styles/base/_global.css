@@ -1,33 +1,66 @@
 /* Great way to deal with border-box issue */
-* {
+
+*, *:before, *:after
+{
   box-sizing: border-box;
 }
 
-html { 
+html
+{
   font-size: 62.5%;
 }
 
-body {
-  /* let's have fun with a free Google font */
-  font-family: 'Lato','sans-serif';
-  font-size: 2rem;
+body
+{
+  font-family: 'Karla', sans-serif;
+  font-size: 1.5rem;
   background-color: $red;
+  margin: 0px;
+  padding: 0px;
 }
 
-h1 {
-  font-family: 'Niconne', cursive;
+/* parent container for content */
+.main-content
+{
+  max-width: 1440px;
+  width:100%;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+h1, h2, h3
+{
+  /*font-family: 'Niconne', cursive;*/
+  font-family: 'Raleway', sans-serif;
+}
+
+h1
+{
   font-size: 6rem;
 }
 
+h2
+{
+  font-size: 4rem;
+}
+
+h3
+{
+  font-size: 2.5rem;
+}
+
 /* easy way to make all your images responsive */
-img {
+img
+{
   max-width: 100%;
   height: auto;
 }
 
 /* links */
-a {
+a
+{
   font-weight: bold;
   text-decoration: none;
   color: $blue;
 }
+

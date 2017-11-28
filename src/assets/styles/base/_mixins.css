@@ -8,22 +8,24 @@
 }
 
 /* Small Devices, Tablets */
+/* triggers desktops if screenwidth is above 772px */
 @define-mixin atMedium {
-  @media (min-width: 768px) {
+  @media (min-width: 772px) {
     @mixin-content;
   }
 }
 
 /* Medium Devices, Desktops */
-@define-mixin atLarge {
+/*@define-mixin atLarge {
   @media (min-width: 992px) {
     @mixin-content;
   }
-}
+}*/
 
 /* Large Devices, Wide Screens */
+/* triggers desktop UP to 1440px, anything beyond stays static */
 @define-mixin atXLarge {
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     @mixin-content;
   }
 }

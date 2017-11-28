@@ -1,0 +1,36 @@
+.navigation
+{
+
+  text-align: center;
+  width:100%;
+  background-color:$black;
+
+  &__ul
+  {
+    display:inline-block;
+    list-style-type: none;
+    position: relative;
+    margin:1.25rem auto;
+    padding:0;
+    /*border: 2px dashed red;*/
+  }
+
+  &__ul li
+  {
+    float:left;
+    width:100px;
+  }
+
+  &__ul li a
+  {
+    font-weight: 400;
+    font-size:2rem;
+    margin:0 10px;
+    color:$yellow;
+  }
+
+  &__ul li a:hover
+  {
+    color:$white;
+  }
+}

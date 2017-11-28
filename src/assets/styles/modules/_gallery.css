@@ -1,0 +1,19 @@
+.gallery
+{
+  background-color:$white;
+
+  &__header
+  {
+    font-weight: 700;
+  }
+
+  &__imagecontainer
+  {
+    background-color:$black;
+  }
+
+  &__controls
+  {
+    background-color:$blue;
+  }
+}
