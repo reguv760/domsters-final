@@ -1,7 +1,7 @@
 /* parent container */
 footer {
  /* border: 1px dashed red;*/
-  background-color: $light-gray;
+  background-color: $silver;
   position:relative;
 }
 
