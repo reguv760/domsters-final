@@ -1,0 +1,18 @@
+.home {
+  /*border:2px dashed green;*/
+  background-color:$yellow;
+  &__welcome
+  {
+
+  }
+
+  &__header
+  {
+    font-weight: 700;
+  }
+
+  &__welcome-text
+  {
+    letter-spacing: 0.1
+  }
+}
