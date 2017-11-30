@@ -4,14 +4,20 @@
   min-height:100px;
 
   &__headline {
-    margin:0px auto;
+    margin:0 auto;
  /*   border: 2px dashed green;*/
   }
 
   &__logo
   {
     position:relative;
-    min-height: 80vh;
+    width:80%;
+    margin:0 auto;
+
+    @mixin atSmall
+    {
+
+    }
   }
 
   &__image
