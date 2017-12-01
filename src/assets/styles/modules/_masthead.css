@@ -3,27 +3,32 @@
 {
   min-height:100px;
 
-  &__headline {
-    margin:0 auto;
- /*   border: 2px dashed green;*/
-  }
-
   &__logo
   {
     position:relative;
-    width:80%;
+    width:100%;
     margin:0 auto;
+    padding:0;
 
     @mixin atSmall
     {
+      width:80%;
+    }
 
+    @mixin atLarge
+    {
+      width:75%;
+    }
+
+    @mixin atXLarge
+    {
+      width:60%;
     }
   }
 
   &__image
   {
     position:relative;
-    margin:0 auto;
     z-index:100;
     float:left;
     margin-top:-8%;
@@ -38,7 +43,7 @@
   &__notes-line
   {
     list-style-type: none;
-    margin:5% 0;
+    margin:4.9% 0;
     border-top:1px solid $black;
   }
 

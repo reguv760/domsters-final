@@ -15,11 +15,11 @@
 }
 
 /* Medium Devices, Desktops */
-/*@define-mixin atLarge {
+@define-mixin atLarge {
   @media (min-width: 992px) {
     @mixin-content;
   }
-}*/
+}
 
 /* Large Devices, Wide Screens */
 /* triggers desktop UP to 1440px, anything beyond stays static */
@@ -28,8 +28,6 @@
     @mixin-content;
   }
 }
-
-/* ============== /Mobile First Media Queries ====== */
 
 /* clearing floats yo! */
 @define-mixin clearfix {
