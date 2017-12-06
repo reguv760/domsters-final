@@ -2,23 +2,30 @@
 footer {
  /* border: 1px dashed red;*/
   background-color: $silver;
-  position:relative;
+  position: right;
 }
 
 /* child container */
 .contact {
-/*  border: 2px dashed green;*/
+  border: 2px dashed green;
   position:relative;
   margin:0 auto;
 
   &__header
   {
     font-size:4rem;
+    border: 2px dashed red;
+    position: center;
+
   }
 
   &__body
   {
     background-color: $white;
+      border: 2px dashed green;
+      position:right;
+      width: 500px;
+
   }
 
   &__form
