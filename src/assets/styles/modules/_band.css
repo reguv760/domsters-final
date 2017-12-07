@@ -1,11 +1,59 @@
 .band
 {
-  position:relative;
   background-color:$blue;
+  min-height: 50vh;
 
   &__about
   {
      /* border:2px dashed blue;*/
+
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  &__about-container
+  {
+    position:relative;
+    width:50%;
+    margin:0;
+    padding:0;
+    padding-right:2rem;
+    height:50vh;
+  }
+
+  &__about-jay,
+  &__about-domster
+  {
+    position:absolute;
+  }
+
+  &__about-domster
+  {
+    display:none;
+  }
+
+  &__about-nav
+  {
+    width:10%;
+    background-color:$amaranth;
+  }
+
+  &__about-nav-link
+  {
+    color:$silver;
+    width:100%;
+  }
+
+  /* jayskipt + domster nav */
+  &__about-nav-link a
+  {
+    text-decoration: none;
+  }
+
+  &__about-nav-link:hover
+  {
+    color:$tango;
   }
 
   &__about_text
@@ -16,6 +64,11 @@
   &__tour
   {
 
+    width:40%;
+    position:relative;
+    padding:0;
+    padding-left:2rem;
+    height:50vh;
   }
 
   &__header
@@ -25,6 +78,31 @@
 
   &__tour_table
   {
+    border-spacing: 0;
+  }
 
+  &__tour_table-head
+  {
+    background-color: $pomegranite;
+    color: $white;
+  }
+
+  &__tour_table-header
+  {
+    text-align: left;
+    padding:0.5rem;
+    font-weight: bold;
+  }
+
+  &__tour_table-row
+  {
+    margin:0 0.5rem;
+  }
+
+  &__tour_table-data
+  {
+    height:2.5rem;
+    padding:1rem 0.5rem;
+    color:$white;
   }
 }
