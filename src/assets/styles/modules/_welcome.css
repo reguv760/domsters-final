@@ -1,0 +1,22 @@
+
+#Welcome {
+  width: 100%;
+  height: 600px;
+  padding-bottom: 60px;
+  position: relative;
+  display: block;
+  margin: 0px auto;
+  background-image: url('../../bg/guitarist-bg.png');
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#Welcome h2 {
+  color: $off-White;
+}
+
+.Welcome__banner {
+  position: relative;
+  top:100px;
+}

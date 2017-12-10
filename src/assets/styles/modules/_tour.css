@@ -1,3 +1,51 @@
-.tour {
-  border:2px dashed blue;
+.About__live {
+  padding-left: 20px;
+}
+
+.About__live-table {
+  font-family: 'Karla', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  color: $Dark-gray;
+}
+
+.About__live-table tr {
+  height: 50px;
+  position: relative;
+  border-left: 4px solid $Dark-blue;
+  -webkit-transition: color ease-out 350ms;
+  -moz-transition: color ease-out 350ms;
+  -o-transition: color ease-out 350ms;
+  transition: color ease-out 350ms;
+}
+
+.About__live-table tr:nth-child(odd){
+  background-color: $Shade-blue;
+}
+
+.About__live-table tr:nth-child(even){
+  background-color: $Tint-blue;
+}
+
+.About__live-table tr.tr-active:hover {
+  color: $off-White;
+  border-left: 4px solid $Tango;
+  -webkit-transition: color ease-out 350ms;
+  -moz-transition: color ease-out 350ms;
+  -o-transition: color ease-out 350ms;
+  transition: color ease-out 350ms;
+}
+
+.About__live-table th {
+  color: $off-White;
+  text-transform: uppercase;
+  padding:0px 15px;
+  background-color: $Orange;
+  position: relative;
+}
+
+
+.About__live-table td {
+  padding:0px 15px;
 }

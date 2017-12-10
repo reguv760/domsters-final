@@ -1,0 +1,30 @@
+.band
+{
+  position:relative;
+  background-color:$blue;
+
+  &__about
+  {
+     /* border:2px dashed blue;*/
+  }
+
+  &__about_text
+  {
+    letter-spacing: 0.1rem;
+  }
+
+  &__tour
+  {
+
+  }
+
+  &__header
+  {
+    font-weight: 700;
+  }
+
+  &__tour_table
+  {
+
+  }
+}

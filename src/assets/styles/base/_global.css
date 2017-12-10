@@ -1,56 +1,214 @@
 /* Great way to deal with border-box issue */
 
-*, *:before, *:after
-{
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-html
-{
   font-size: 62.5%; /* 1REM = 10px */
 }
 
-body
-{
-  font-family: 'Karla', sans-serif;
-  font-size: 1.5rem;
-  background-color: $abbey;
+body {
+  padding: 0px 20px;
+  margin: 0px auto;
+  background-color: $Mute-blue;
+  background-image: url('../../bg/bg-main.png');
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+#page {
+  max-width: 1440px;
+  display: block;
+  position: relative;
+  margin: 0px auto;
+  background-color: $Dark-blue;
+}
+
+.grid-1024 {
+  max-width: 1024px;
+  width: 100%;
+  padding: 0px 20px;
+  margin: 0px auto;
+  position: relative;
+  display: block;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-90 {
+  width: 90%;
+  float: left;
+}
+
+.col-75 {
+  width: 75%;
+  float: left;
+}
+
+.col-60 {
+  width: 60%;
+  float: left;
+}
+
+.col-50 {
+  width: 50%;
+  float: left;
+}
+
+.col-40 {
+  width: 40%;
+  float: left;
+}
+
+.col-33 {
+  width: 33.33%;
+  float: left;
+}
+
+.col-25 {
+  width: 25%;
+  float: left;
+}
+
+.col-10 {
+  width: 10%;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 {
+  font-family:'Raleway';
+  font-weight: 800;
+  font-size: 5.5rem;
+  text-transform: capitalize;
+}
+
+h2::before {
+  content: ' ';
+  height: 5px;
+  width:70px;
+  background-color: $Orange;
+  position: absolute;
+  top: -15px;
+}
+
+h3 {
+  font-family:'Karla';
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: $Medium-gray;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: color ease-out 350ms;
+  -moz-transition: color ease-out 350ms;
+  -o-transition: color ease-out 350ms;
+  transition: color ease-out 350ms;
+}
+
+a:hover {
+  color: $Medium-gray;
+  -webkit-transition: color ease-out 350ms;
+  -moz-transition: color ease-out 350ms;
+  -o-transition: color ease-out 350ms;
+  transition: color ease-out 350ms;
+}
+
+ul {
   margin: 0px;
   padding: 0px;
+  list-style: none;
 }
 
-/* parent container for content */
-.main-content
-{
-  max-width: 1440px;
-  width:100%;
-  margin: 0px auto;
-  padding: 2rem;
-  background-color:$white;
+table {
+  width: 100%;
 }
 
-h1, h2, h3
-{
-  /*font-family: 'Niconne', cursive;*/
-  font-family: 'Raleway', sans-serif;
-}
-
-h1 { font-size: 6rem; }
-h2 { font-size: 4rem; }
-h3 { font-size: 2.5rem; }
-
-/* easy way to make all your images responsive */
-img
-{
-  max-width: 100%;
-  height: auto;
-}
-
-/* links */
-a
-{
-  font-weight: bold;
+table, thead, tbody, th, td, tr {
+  border: none;
+  border-radius: 0px;
+  outline: none;
+  border-collapse: collapse;
+  box-shadow: none;
   text-decoration: none;
-  color: $blue;
 }
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $Medium-gray;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $Medium-gray;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $Medium-gray;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $Medium-gray;
+}
+
+span.highlight {
+  color: $Tango;
+}
+
+.title-header {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  display: block;
+}
+
+.title-header--blue .grid-1024,
+.title-header--white .grid-1024 {
+  position: relative;
+  height: 250px;
+}
+
+.title-header--blue .grid-1024 h2,
+.title-header--white .grid-1024 h2 {
+  position: absolute;
+  left: 20px;
+  bottom: 75px;
+}
+
+.title-header--blue {
+  background-color: $Navy;
+}
+
+.title-header--white {
+  background-color: $off-White;
+}
+
+.title-header--blue h2 {
+  color: $off-White;
+}
+
+.title-header--white h2 {
+  color: $Dark-blue;
+}
