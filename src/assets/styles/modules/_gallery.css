@@ -1,59 +1,102 @@
-h1{
-  font-family: Satisfy;
-  font-size:50px;
-  text-align:center;
-  color:black;
-  padding:1%;
-}
-#gallery{
-  -webkit-column-count:4;
-  -moz-column-count:4;
-  column-count:4;
-  
-  -webkit-column-gap:20px;
-  -moz-column-gap:20px;
-  column-gap:20px;
-}
-@media (max-width:1200px){
-  #gallery{
-  -webkit-column-count:3;
-  -moz-column-count:3;
-  column-count:3;
-    
-  -webkit-column-gap:20px;
-  -moz-column-gap:20px;
-  column-gap:20px;
-}
-}
-@media (max-width:800px){
-  #gallery{
-  -webkit-column-count:2;
-  -moz-column-count:2;
-  column-count:2;
-    
-  -webkit-column-gap:20px;
-  -moz-column-gap:20px;
-  column-gap:20px;
-}
-}
-@media (max-width:600px){
-  #gallery{
-  -webkit-column-count:1;
-  -moz-column-count:1;
-  column-count:1;
-}  
-}
-.card{
-  width:100%;
-  height:auto;
-  margin: 4% auto;
-  box-shadow:-3px 5px 15px #000;
-  cursor: pointer;
-}
-.modal-img,.model-vid{
-  width:100%;
-  height:auto;
-}
-.modal-body{
-  padding:0px;
+/* *,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+} */
+
+
+/* body {
+    margin: 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #707070;
+    background-color: #333;
+} */
+
+.gallery {
+    &__about {
+        border: 2px dashed $black;
+    }
+    &__about_text {
+        letter-spacing: 0.1rem;
+    }
+    &__header {
+        font-weight: 700;
+    }
+    &__imagecontainer {
+        margin: 0 auto;
+        max-width: 700px;
+        max-height: 100vh;
+        background-color: white;
+    }
+
+    /* Useful Classes */
+    &__xy-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &__transition {
+        transition: all 350ms ease-in-out;
+    }
+    &__r-3-2 {
+        width: 100%;
+        padding-bottom: 66.667%;
+        background-color: #ddd;
+    }
+    &__image-holder {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    /* Main Styles */
+    &__gallery-wrapper {
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__gallery {
+        position: relative;
+        white-space: nowrap;
+        font-size: 0;
+    }
+
+    &__item-wrapper {
+        cursor: pointer;
+        width: 23%;
+        /* arbitrary value */
+        display: inline-block;
+        background-color: white;
+    }
+    &__gallery-item {
+        opacity: 0.5;
+    }
+    &__gallery-item.active {
+        opacity: 1;
+    }
+    &__controls {
+        font-size: 0;
+        border-top: none;
+    }
+    &__move-btn {
+        display: inline-block;
+        width: 50%;
+        border: none;
+        color: #ccc;
+        background-color: transparent;
+        padding: 0.2em 1.5em;
+    }
+    &__move-btn:first-child {
+        border-right: none;
+    }
+    &__move-btn.left {
+        cursor: w-resize;
+    }
+    &__move-btn.right {
+        cursor: e-resize;
+    }
 }
