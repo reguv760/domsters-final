@@ -19,13 +19,18 @@
 
       @mixin atTablet
       {
-         width: 50%;
+         width: 33%;
       }
 
       @mixin atMedium
       {
          width: 50%;
          float: none;
+      }
+
+      @mixin atSmall
+      {
+         width:100%;
       }
    }
 
@@ -69,6 +74,16 @@
       {
          width:88%;
          padding-left: 0px;
+      }
+
+      @mixin atTablet
+      {
+         width:45%;
+      }
+
+      @mixin atSmall
+      {
+         width:85%;
       }
    }
 

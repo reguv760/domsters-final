@@ -83,7 +83,7 @@
   &__live
   {
     position: relative;
-    width:40%;
+    width:50%;
 
     @mixin atMedium
     {
