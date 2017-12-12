@@ -1,19 +1,14 @@
-.gallery
-{
-  background-color:$white;
 
-  &__header
-  {
-    font-weight: 700;
-  }
+.Photos {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  display: block;
+  margin: 0px auto;
+  background-color: $Light-gray;
+  background-image: url('../../bg/stage-bg.png');
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
 
-  &__imagecontainer
-  {
-    background-color:$black;
-  }
-
-  &__controls
-  {
-    background-color:$blue;
-  }
 }
