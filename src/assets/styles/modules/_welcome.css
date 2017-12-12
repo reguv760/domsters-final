@@ -65,6 +65,7 @@
   &__text
   {
     padding-left:6rem;
+    text-shadow: 1px 1px $Black;
 
      @mixin atMedium
     {
