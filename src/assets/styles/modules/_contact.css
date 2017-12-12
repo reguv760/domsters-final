@@ -1,0 +1,144 @@
+.contact {
+   width: 100%;
+   height: 500px;
+   position: relative;
+   display: block;
+   margin: 0px auto;
+   padding-top: 6rem;
+   padding-bottom: 6rem;
+
+   @mixin atMedium
+   {
+     height: auto;
+   }
+
+   &__social {
+      float:left;
+      padding-right: 2rem;
+      padding-bottom: 6rem;
+
+      @mixin atTablet
+      {
+         width: 50%;
+      }
+
+      @mixin atMedium
+      {
+         width: 50%;
+         float: none;
+      }
+   }
+
+   &__social a {
+      font-size: 2rem;
+      color: $Orange;
+      text-align: center;
+      position: relative;
+      display: inline-block;
+      padding: 1rem 0.8rem;
+      border: 3px solid $Orange;
+      border-radius: 100%;
+      margin-right: 2rem;
+      margin-bottom: 2rem;
+      top: 0px;
+      transition: top ease-out 350ms;
+
+      @mixin atTablet
+      {
+         margin-bottom: 20px;
+      }
+
+      @mixin atMedium
+      {
+         margin-bottom: 20px;
+      }
+   }
+
+   &__social a:hover {
+      color: $Tango;
+      border: 3px solid $Tango;
+      top: 1rem;
+      transition: top ease-out 350ms;
+   }
+
+   &__form {
+      float:left;
+      padding-left: 20px;
+
+      @mixin atMedium
+      {
+         width:88%;
+         padding-left: 0px;
+      }
+   }
+
+   &__form-body_Input {
+      width: 100%;
+      font-family: 'Karla';
+      font-size: 13px;
+      font-weight: 700;
+      color: $Medium-gray;
+      border: 2px solid $Gray-blue;
+      background-color: $Dark-blue;
+      border-radius: 0px;
+      text-shadow: none;
+      box-shadow: none;
+      padding: 1.5rem 1rem;
+      margin-bottom: 3rem;
+      float: left;
+    }
+ }
+
+
+textarea {
+   font-family: 'Karla';
+   font-size: 13px;
+   font-weight: 700;
+   color: $Medium-gray;
+   width: 100%;
+   border: 2px solid $Gray-blue;
+   background-color: $Dark-blue;
+   border-radius: 0xp;
+   text-shadow: none;
+   box-shadow: none;
+   padding: 15px 10px;
+   margin-bottom: 30px;
+   clear: both;
+   resize: none;
+ }
+
+textarea:focus,
+input:focus
+{
+    outline: none;
+    border-color: $Purple;
+    box-shadow: 0 0 10px $Purple;
+}
+
+button:focus {
+   outline: none;
+   border-color: none;
+   box-shadow: none;
+}
+
+ button {
+   font-family: 'Karla';
+   font-size: 16px;
+   font-weight: 700;
+   color: $off-White;
+   border:none;
+   border-radius: 0px;
+   text-shadow: none;
+   box-shadow: none;
+   background-color: $Orange;
+   padding: 15px 30px;
+   position: relative;
+   display: block;
+   margin: 0px auto;
+   transition: background-color ease-out 350ms;
+ }
+
+ button:hover {
+   background-color: $Tango;
+   transition: background-color ease-out 350ms;
+ }

@@ -1,0 +1,14 @@
+table
+{
+  width: 100%;
+}
+
+table, thead, tbody, th, td, tr
+{
+  border: none;
+  border-radius: 0px;
+  outline: none;
+  border-collapse: collapse;
+  box-shadow: none;
+  text-decoration: none;
+}

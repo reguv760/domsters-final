@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -9,171 +9,205 @@
      <!--<link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png"> -->
 
+   <!--  <link rel="stylesheet" href="assets/styles/styles.css"> -->
+
     <!-- build:css assets/styles/styles.css -->
     <link rel="stylesheet" href="temp/css/styles.css"/>
     <!-- endbuild -->
 
- 
+    <!-- build:js assets/scripts/App.js
+    <script src="/temp/scripts/App.js"></script> -->
+    <!-- endbuild -->
+
     <!-- build:js assets/scripts/Vendor.js
     <script src="/temp/scripts/Vendor.js"></script> -->
     <!-- endbuild -->
 
+    <title>Jay Skript And The Domsters</title>
   </head>
-
   <body>
+    <main id="page">
 
-    <main class="main-content">
       <header class="masthead">
-        <div class="masthead__logo">
-            <img class="masthead__image" src="../assets/images/icons/domsters_logo.svg" alt="logo">
-
-            <ul class="masthead__notes">
-              <li class="masthead__notes-line">
-              <li class="masthead__notes-line">
-              <li class="masthead__notes-line">
-              <li class="masthead__notes-line">
-              <li class="masthead__notes-line">
-            </ul>
+        <div class="masthead__strings">
+          <div class="string one"></div>
+          <div class="string two"></div>
+          <div class="string three"></div>
+          <div class="string four"></div>
         </div>
+
+        <a href="index.html"><img class="masthead__logo" src="assets/images/icons/domsters_logo.svg" alt="Domsters-Logo"></a>
       </header>
 
-      <nav class="navigation">
-        <ul class="navigation__ul">
-          <li class="navigation__li"><a class="active" href="">Home</a></li>
-          <li class="navigation__li"><a href="">The Band</a></li>
-          <li class="navigation__li"><a href="">Gallery</a></li>
-          <li class="navigation__li"><a href="">Contact</a></li>
-        </ul>
+      <nav class="">
+        <a class="active" href="#Welcome">Welcome</a>
+        <a href="#Band">The Band</a>
+        <a href="#Gallery">Gallery</a>
+        <a href="#Footer-wrap">Contact Us</a>
       </nav>
 
-      <section class="home">
-        <article class="home__welcome col-100">
-          <div class="home__welcome-banner">
-            <h2 class="home__header">Welcome</h2>
-            <p class="home__welcome_text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aut. Minus, tenetur quae. Dicta aliquid aspernatur, labore sapiente delectus soluta cum illum minus accusantium, nihil nulla consequuntur ullam, fugiat pariatur!
+      <section id="Welcome" class="welcome">
+        <div class="grid-1024">
+          <div class="welcome__banner col-50">
+            <h2 class="welcome__header">Let's Rock!</h2>
+            <p class="welcome__text">
+              Welcome to the official website of Jay Skript and the Domsters.
+              Rock out and learn more about the band as you embark with them on an epic adventure to conquering the world.
+            </p>
+
+            <p class="welcome__text">
+              View photos of the band. Check out tour dates and watch them perform live. Don’t forget to contact the band for more info.
             </p>
           </div>
+        </div>
 
-          <div class="home__welcome-image">
-
-          </div>
-        </article>
+        <div class="clear"></div>
+        </div>
       </section>
 
-      <section class="band">
-
+      <section id="Band">
         <div class="title-header title-header--blue">
-          <h2>The Band.</h3>
+          <div class="grid-1024">
+            <h2>The Band.</h2>
+          </div>
         </div>
 
-        <article class="band__about col-75">
-          <div>
-            tab icons
+        <div class="About">
+          <div class="grid-1024">
+
+            <!-- main container-->
+            <div class="About__info">
+
+              <!-- tab interface container-->
+  <!--             <div class="About__info-tab">
+                <a class="flagged" href=""><span class="icon-guitar"></span></a>
+                <a href=""><span class="icon-drums"></span></a>
+              </div> -->
+
+              <!--description container -->
+              <div class="About__info-desc col-60">
+
+                <div id="jayskript" class="About__desc">
+                  <h3>Jay Skript</h3>
+                  <p>Jay Skript is going to rock your world!</p>
+
+                  <p>Together with his compatriots The Domsters, Jay is set for world domination. Just you wait and see.</p>
+
+                  <p>Jay Skript has been on the scene since the mid nineties. His talent hasn't always been recognized or fully appreciated. In the early days, he was often unfavorably compared to bigger, similarly-named artists. That's all in the past now.</p>
+                </div>
+
+                <div id="domsters" class="About__desc">
+                  <h3>Domsters</h3>
+                  <p>The Domsters have been around, in one form or another, for almost as long. It's only in the past few years that The Domsters have settled down to their current, stable line-up. Now they're a rock-solid bunch: methodical and dependable.</p>
+                </div>
+              </div>
+
+              <div class="About__live col-40">
+                <h3>Tour Dates</h3>
+
+                <table class="About__live-table">
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>City</th>
+                      <th>Venue</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr class="tr-active">
+                      <td>June 9th</td>
+                      <td>Portland, OR</td>
+                      <td>Crystal Ballroom</td>
+                    </tr>
+
+                    <tr class="tr-active">
+                      <td>June 10th</td>
+                      <td>Seattle, WA</td>
+                      <td>Crocodile Cafe</td>
+                    </tr>
+
+                    <tr class="tr-active">
+                      <td>June 12th</td>
+                      <td>Sacramento, CA</td>
+                      <td>Torch Club</td>
+                    </tr>
+
+                    <tr class="tr-active">
+                      <td>June 17th</td>
+                      <td>Austin, TX</td>
+                      <td>Speakeasy</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="clear"></div>
           </div>
+        </div>
 
-          h3  jayscript
-            p
-          h3  domsters
-            p
-        </article>
-
-        <aside class="band__tour col-25">
-          <h3 class="band__header">Tour Dates</h3>
-          <table class="band__tour_table">
-
-          </table>
-        </aside>
       </section>
 
-      <section class="gallery">
+      <section id="Gallery">
         <div class="title-header title-header--white">
-          <h3>Photo Gallery.</h3>
+          <div class="grid-1024">
+            <h2>Photo Gallery.</h2>
+          </div>
         </div>
 
-          <div class="gallery__imagecontainer col-100 slider">
-
+        <div class="Photos">
+          <div class="grid-1024">
+              <!--photos and controls go in here -->
           </div>
-
-          <div class="gallery__controls">
-            <span class="gallery__controls_left">left control</span>
-            <span class="gallery__controls_right">right control</span>
-          </div>
+        </div>
       </section>
-      <!--[ENDIF Gallery]-->
-      <div class="contact-title"
-      <h2 class="contact-title">Contact Us</h2>
-      <footer class="contact">
-        <h2 class="contact__header">Contact Us</h2>
 
-        <div class="contact__body col-50 social-media">
-          <h3 class="contact__subtitle">Connect</h3>
-          <p class="">social media</p>
+      <footer id="Footer-wrap">
+        <div class="title-header title-header--blue">
+          <div class="grid-1024">
+            <h2>Contact Us.</h2>
+          </div>
         </div>
 
-        <!--- contact form -->
-        <div class="contact__body col-50 contact-form">
+        <div id="Contact" class="contact">
+          <div class="grid-1024">
 
-<!--         <h3>Get in touch</h3>
- -->          <form class="contact__form" action="">
-            <div class="contact__formInput">
-              <h3 class="contact__formInput_header">Get In Touch</h3>
-              <br>
-              <input class="contact__formInput-textInput" type="text" name="firstname" placeholder="Type first name here">
+            <div class="contact__social">
+              <h3>Connect</h3>
+              <a target="_blank" href=""><span class="icon-instagram"></span></a>
+              <a target="_blank" href=""><span class="icon-facebook-squared"></span></a>
+              <a target="_blank" href=""><span class="icon-twitter"></span></a>
+              <a target="_blank" href=""><span class="icon-youtube"></span></a>
             </div>
 
-            <div class="contact__formInput">
-              <br>
-              <input class="contact__formInput-textInput" type="text" name="lastname" placeholder="Type last name here">
+            <div class="contact__form">
+              <h3>Get in touch</h3>
+
+              <form action="contact__form-body">
+                <input class="contact__form-body_Input name" type="text" name="firstname" placeholder="FIRST AND LAST NAME">
+
+                <input class="contact__form-body_Input email" type="email" name="lastname" placeholder="EMAIL ADDRESS">
+
+                <textarea name="message" rows="7" placeholder="TYPE MESSAGE"></textarea>
+
+                <button class="contact__form-body_Btn" type="submit">SEND MESSAGE</button>
+              </form>
             </div>
 
-            <div class="contact__formInput">
-              <br>
-              <textarea class="contact__formInput-textarea" rows="10" cols="50"></textarea>
-            </div>
-
-            <button class="contact__form_submitButton" type="submit">Submit</button>
-          </form>
+            <div class="clear"></div>
+          </div>
         </div>
 
-        <div class="bottom">
-          <p class="bottom-copy">copyright</p>
+        <div class="epilogue">
+          <span class="highlight">&copy; Domsters -</span> 2018. All Rights Reserved.
         </div>
       </footer>
-    </main>
 
     <!-- ALSO ADD app.js code here mimick vendor.js -->
- </body>
+
+    </main>
+  </body>
 </html>
 
 
-
-
-
-<!-- 
-                  <footer>
-                          <div class=“contact”>
-                              <h3>Contact Us.</h3>
-                          </div>
-                          <div class="contact-body">
-
-                          <div class=“social-media”>
-                          <h3>Connect</h3>
-                          </div>
-                    
-
-                          <div class=“contact-form”>
-                          <h3>Get in touch</h3>
-                          </div>
-
-                          <div>
-                              forms
-                          </div>
-
-                          <div class="bottom">
-                            <p class="bottom-copy">copyright</p>
-                         </div>
-                  </footer>
-    </main>
-  </body>
-</html> -->

@@ -9,12 +9,14 @@
      <!--<link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png"> -->
 
-    <link rel="stylesheet" href="assets/styles/styles-1bc28b7619.css"/>
+    <!-- build:css assets/styles/styles.css -->
+    <link rel="stylesheet" href="temp/css/styles.css"/>
+    <!-- endbuild -->
 
- 
+
     <!-- build:js assets/scripts/Vendor.js
     <script src="/temp/scripts/Vendor.js"></script> -->
-    
+    <!-- endbuild -->
 
   </head>
 
@@ -99,8 +101,10 @@
           </div>
       </section>
       <!--[ENDIF Gallery]-->
+      <div class="contact-title"
+      <h2 class="contact-title">Contact Us</h2>
       <footer class="contact">
-        <h2 class="contact__header">Contact</h2>
+        <h2 class="contact__header">Contact Us</h2>
 
         <div class="contact__body col-50 social-media">
           <h3 class="contact__subtitle">Connect</h3>
@@ -109,19 +113,22 @@
 
         <!--- contact form -->
         <div class="contact__body col-50 contact-form">
-          <form class="contact__form" action="">
+
+<!--         <h3>Get in touch</h3>
+ -->          <form class="contact__form" action="">
             <div class="contact__formInput">
-              <h3 class="contact__formInput_header">First name</h3>
-              <input class="contact__formInput-textInput" type="text" name="firstname" placeholder="Type firstname here">
+              <h3 class="contact__formInput_header">Get In Touch</h3>
+              <br>
+              <input class="contact__formInput-textInput" type="text" name="firstname" placeholder="Type first name here">
             </div>
 
             <div class="contact__formInput">
-              <h3 class="contact__formInput_header">Last name</h3>
-              <input class="contact__formInput-textInput" type="text" name="lastname" placeholder="Type lastname here">
+              <br>
+              <input class="contact__formInput-textInput" type="text" name="lastname" placeholder="Type last name here">
             </div>
 
             <div class="contact__formInput">
-              <h3 class="contact__formInput_header">Message</h3>
+              <br>
               <textarea class="contact__formInput-textarea" rows="10" cols="50"></textarea>
             </div>
 
@@ -129,8 +136,8 @@
           </form>
         </div>
 
-        <div class="contact__epilogue">
-          <p class="contact__epilogue-copyright">copyright</p>
+        <div class="bottom">
+          <p class="bottom-copy">copyright</p>
         </div>
       </footer>
     </main>
@@ -138,3 +145,35 @@
     <!-- ALSO ADD app.js code here mimick vendor.js -->
  </body>
 </html>
+
+
+
+
+
+<!--
+                  <footer>
+                          <div class=“contact”>
+                              <h3>Contact Us.</h3>
+                          </div>
+                          <div class="contact-body">
+
+                          <div class=“social-media”>
+                          <h3>Connect</h3>
+                          </div>
+
+
+                          <div class=“contact-form”>
+                          <h3>Get in touch</h3>
+                          </div>
+
+                          <div>
+                              forms
+                          </div>
+
+                          <div class="bottom">
+                            <p class="bottom-copy">copyright</p>
+                         </div>
+                  </footer>
+    </main>
+  </body>
+</html> -->
