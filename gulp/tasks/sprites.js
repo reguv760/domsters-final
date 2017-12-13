@@ -29,7 +29,7 @@ gulp.task('beginClean', () =>
 gulp.task('createSprite', ['beginClean'], () =>
   gulp
     // grab all the svgs inside the icons folder
-    .src('./src/assets/images/icons/**/*.svg')
+    .src('./src/assets/images/icons/*.svg')
     // use the template var
     .pipe(svgSprite(config))
     // output generated sprite to tmp file
