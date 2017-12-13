@@ -61,7 +61,6 @@
   /* container for About_desc */
   &__info-desc
   {
-<<<<<<< HEAD
 
     position: relative;
     float:left;
@@ -79,9 +78,7 @@
   &__desc
   {
     padding-right: 2rem;
-=======
      /* border:2px dashed blue; */
->>>>>>> d495f7b79e7353bfbd1f5d7bb80075b69664e373
   }
 
   &__desc p
