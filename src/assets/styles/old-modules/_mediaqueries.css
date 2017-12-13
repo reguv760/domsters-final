@@ -65,7 +65,7 @@
 
    .Welcome__banner {
      top:0px;
-   } */
+   }
 
    .Photos {
      height: auto;
@@ -84,7 +84,7 @@
 
     .Contact__social a {
       margin-bottom: 20px;
-    }
+    } */
 
 }
 
@@ -144,7 +144,7 @@
   .About__live {
     width: 100%;
     padding-left: 0px;
-  }*/
+  }
 
 
   .Photos {
@@ -153,6 +153,7 @@
     background-position: top right;
     padding-top: 60px;
   }
+  */
 
 
 
