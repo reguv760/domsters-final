@@ -1,4 +1,5 @@
     .icon {
+<<<<<<< HEAD
       background-image: url('./temp/sprite/css/sprite-87e6f7cf.svg');
     }
 
@@ -12,6 +13,27 @@
     width: 502px;
     height: 452px;
     background-position: 0 0;
+=======
+      background-image: url('/temp/sprite/css/sprite-d7768647.svg');
+    }
+
+  .icon--camera {
+    width: 34px;
+    height: 34px;
+    background-position: 68.10344827586206% 31.02777777777778%;
+  }
+
+  .icon--dice {
+    width: 34px;
+    height: 34px;
+    background-position: 72.98850574712644% 31.02777777777778%;
+  }
+
+  .icon--domsters_logo {
+    width: 255.4px;
+    height: 111.7px;
+    background-position: 99.87357774968395% 0;
+>>>>>>> d495f7b79e7353bfbd1f5d7bb80075b69664e373
   }
 
   .icon--colored_jsdlogo {
