@@ -7,6 +7,11 @@
   margin: 0px auto;
   padding-top: 6rem;
 
+  background-image:url("../../assets/images/icons/backdrop_guitar.svg");
+  background-size:contain; /* width + height */
+  background-repeat: no-repeat;
+  background-position: right;
+
   @mixin atMedium
   {
     height: auto;
