@@ -5,6 +5,8 @@
 @import 'base/_global.css';
 @import 'base/_mixins.css';
 
+
+@import 'modules/_sprite.css';
 @import 'modules/_masthead.css';
 @import 'modules/_title.css';
 @import 'modules/_navigation.css';
