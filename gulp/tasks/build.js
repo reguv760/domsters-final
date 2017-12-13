@@ -36,8 +36,7 @@ gulp.task('copyGeneralFiles', ['deleteDistFolder'], () => {
 gulp.task('optimizeImages', ['deleteDistFolder', 'icons'], () => gulp.src([
   './src/assets/images/**/*',
   '!./src/assets/images/icons',
-  '!./src/assets/images/icons/**/*'
-])
+  '!./src/assets/images/icons/**/*'])
   .pipe(imagemin({
     progressive: true,
     interlaced: true,
