@@ -1,7 +1,7 @@
 {{#shapes}}
   {{#first}}
     .icon {
-      background-image: url('/temp/sprite/css/{{{sprite}}}');
+      background-image: url('./temp/sprite/css/{{{sprite}}}');
     }
   {{/first}}
 
