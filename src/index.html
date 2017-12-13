@@ -10,8 +10,6 @@
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 
-    <script src="Gallery.js"></script>
-
      <!--<link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png"> -->
 
@@ -78,50 +76,69 @@
         </aside>
       </section>
       <!--[ENDIF About the Band]-->
+      
       <!--[Gallery]-->
       <section class="gallery">
+        <article class="gallery__about col-75">
           <h2 class="gallery__header">Image Gallery</h2>
+          <p class="gallery__about_text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit delectus, eum consequatur culpa nisi eaque odit eligendi
+            qui numquam incidunt quisquam architecto maiores dolor ad optio ea eveniet in at.
+          </p>
           <div class="gallery__imagecontainer col-100 slider">
-
-              <hr>
-              <div id="gallery" class="container-fluid">  
-                <img src="/assets/images/photos/bassist.jpg" class="card img-responsive">
-                <img src="/assets/images/photos/concert.jpg" class="card img-responsive">
-                 <img src="/assets/images/photos/crowd.jpg" class="card img-responsive">
-                <video class="card vid" controls>
-                  <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-                  </source>
-                </video>
-                <img src="/assets/images/photos/guitarist.jpg" class="card img-responsive">
                 
-                <!--<img src="" class="card img-responsive">-->
+        </article>
               
-              </div>
-              
-              <div id="myModal" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-              
-                  <!-- Modal content-->
-                  <div class="modal-content">
-                    <div class="modal-body">
-                      <p>Some text in the modal.</p>
-                    </div>
-                  </div>
-              
-                </div>
-              </div>
-                          
-
-                                
-
-            <!-- <img src="/assets/images/photos/bassist.jpg" alt="">
-            <img src="/assets/images/photos/concert.jpg" alt="">
-            <img src="/assets/images/photos/crowd.jpg" alt="">
-            <img src="/assets/images/photos/guitarist.jpg" alt=""> -->
+/////////////////////////////////////////////////////////////////////
 
 
+  
+    <figure class="featured-item gallery__image-holder gallery__r-3-2 gallery__transition"><img src="./assets/images/photos/bassist.jpg" alt=""></figure>
+    <!-- figure blocks, centers, and pads an image -->
 
-          </div>
+  <div class="gallery__gallery-wrapper">
+    <div class="gallery__gallery">
+      <div class="gallery__item-wrapper">
+        <figure class="gallery__gallery-item gallery__gallery__image-holder gallery__r-3-2 active gallery__transition"></figure>
+      </div>
+      <div class="gallery__item-wrapper">
+        <figure class="gallery-item gallery__image-holder gallery__r-3-2 gallery__transition"></figure>
+      </div>
+      <div class="gallery__item-wrapper">
+        <figure class="gallery-item gallery__image-holder gallery__r-3-2 gallery__transition"></figure>
+      </div>
+      <div class="gallery__item-wrapper">
+        <figure class="gallery-item gallery__image-holder gallery__r-3-2 gallery__transition"></figure>
+      </div>
+      <div class="gallery__item-wrapper">
+        <figure class="gallery-item gallery__image-holder gallery__r-3-2"></figure>
+      </div>
+      <div class="gallery__item-wrapper">
+        <figure class="gallery-item gallery__image-holder gallery__r-3-2 gallery__transition"></figure>
+      </div>
+      <div class="gallery__item-wrapper">
+        <figure class="gallery-item gallery__image-holder gallery__r-3-2 gallery__transition"></figure>
+      </div>
+      <div class="gallery__item-wrapper">
+        <figure class="gallery-item gallery__image-holder gallery__r-3-2 gallery__transition"></figure>
+      </div>
+      <div class="gallery__item-wrapper">
+        <figure class="gallery-item gallery__image-holder gallery__r-3-2 gallery__transition"></figure>
+      </div>
+      <div class="gallery__item-wrapper">
+        <figure class="gallery-item gallery__image-holder gallery__r-3-2 gallery__transition"></figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button class="move-btn left">&larr;</button>
+    <button class="move-btn right">&rarr;</button>
+  </div>
+
+</div>
+/////////////////////////////////////////////////////////////////////
+
 
           <div class="gallery__controls">
             <span class="gallery__controls_left">left control</span>
@@ -130,6 +147,7 @@
 
       </section>
       <!--[ENDIF Gallery]-->
+
       <footer class="contact">
         <h2 class="contact__header">Contact</h2>
 
