@@ -1,0 +1,50 @@
+/*
+.masthead
+{
+  min-height:100px;
+
+  &__logo
+  {
+    position:relative;
+    width:100%;
+    margin:0 auto;
+    padding:0;
+
+    @mixin atSmall
+    {
+      width:80%;
+    }
+
+    @mixin atLarge
+    {
+      width:75%;
+    }
+
+    @mixin atXLarge
+    {
+      width:60%;
+    }
+  }
+
+  &__image
+  {
+    position:relative;
+    z-index:100;
+    float:left;
+    margin-top:-8%;
+  }
+
+  &__notes
+  {
+    width:100%;
+    margin:20% 0;
+  }
+
+  &__notes-line
+  {
+    list-style-type: none;
+    margin:4.9% 0;
+    border-top:1px solid $black;
+  }
+
+}*/

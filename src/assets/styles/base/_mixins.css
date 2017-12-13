@@ -1,7 +1,7 @@
 /* ============== Mobile First Media Queries ====== */
 /* Extra Small Devices, Phones */
 @define-mixin atSmall {
-  @media (min-width: 480px) {
+  @media (max-width: 600px) {
     @mixin-content;
   }
 }
@@ -9,22 +9,29 @@
 /* Small Devices, Tablets */
 /* triggers desktops if screenwidth is above 772px */
 @define-mixin atMedium {
-  @media (min-width: 772px) {
+  @media (max-width: 772px) {
     @mixin-content;
   }
 }
 
-/* Medium Devices, Desktops */
-@define-mixin atLarge {
-  @media (min-width: 992px) {
+@define-mixin atTablet
+{
+  @media (max-width: 998px) {
+    @mixin-content;
+  }
+}
+
+@define-mixin atDesktop
+{
+  @media (max-width: 1152px) {
     @mixin-content;
   }
 }
 
 /* Large Devices, Wide Screens */
 /* triggers desktop UP to 1440px, anything beyond stays static */
-@define-mixin atXLarge {
-  @media (min-width: 1440px) {
+@define-mixin atXL {
+  @media (max-width: 1366px) {
     @mixin-content;
   }
 }

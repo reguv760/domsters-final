@@ -1,0 +1,80 @@
+.grid-1024
+{
+  max-width: 1024px;
+  width: 100%;
+  padding: 0px 20px;
+  margin: 0px auto;
+  position: relative;
+  display: block;
+}
+
+.col-100
+{
+  width: 100%;
+}
+
+.col-90
+{
+  width: 90%;
+  float: left;
+}
+
+.col-75
+ {
+  width: 75%;
+  float: left;
+}
+
+.col-60
+{
+  width: 60%;
+  float: left;
+
+  @mixin atMedium
+  {
+    width: 100%;
+    float: left;
+  }
+}
+
+.col-50
+{
+  width: 50%;
+  float: left;
+
+  @mixin atTablet
+  {
+    width: 75%;
+    float: left;
+  }
+}
+
+.col-40
+{
+  width: 40%;
+  float: left;
+
+  @mixin atMedium
+  {
+    width: 100%;
+    float: left;
+  }
+}
+
+.col-33
+{
+  width: 33.33%;
+  float: left;
+}
+
+.col-25
+ {
+  width: 25%;
+  float: left;
+}
+
+.col-10
+ {
+  width: 10%;
+  float: left;
+}

@@ -1,0 +1,33 @@
+    .icon {
+      background-image: url('/temp/sprite/css/sprite-d5224191.svg');
+    }
+
+  .icon--JSD_Logo {
+    width: 362px;
+    height: 362px;
+    background-position: 100% 0;
+  }
+
+  .icon--camera {
+    width: 34px;
+    height: 34px;
+    background-position: 31.845386533665835% 83.47457627118644%;
+  }
+
+  .icon--dice {
+    width: 34px;
+    height: 34px;
+    background-position: 36.084788029925186% 83.47457627118644%;
+  }
+
+  .icon--domsters_logo {
+    width: 255.4px;
+    height: 111.7px;
+    background-position: 0 99.92391580015216%;
+  }
+
+  .icon--paints {
+    width: 474px;
+    height: 394px;
+    background-position: 0 0;
+  }

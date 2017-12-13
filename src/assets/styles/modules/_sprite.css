@@ -1,5 +1,5 @@
     .icon {
-      background-image: url('/temp/sprite/css/sprite-d5224191.svg');
+      background-image: url('./temp/sprite/css/sprite-87e6f7cf.svg');
     }
 
   .icon--JSD_Logo {
@@ -8,26 +8,20 @@
     background-position: 100% 0;
   }
 
-  .icon--camera {
-    width: 34px;
-    height: 34px;
-    background-position: 31.845386533665835% 83.47457627118644%;
+  .icon--backdrop_guitar {
+    width: 502px;
+    height: 452px;
+    background-position: 0 0;
   }
 
-  .icon--dice {
-    width: 34px;
-    height: 34px;
-    background-position: 36.084788029925186% 83.47457627118644%;
+  .icon--colored_jsdlogo {
+    width: 362px;
+    height: 362px;
+    background-position: 0 100%;
   }
 
   .icon--domsters_logo {
     width: 255.4px;
     height: 111.7px;
-    background-position: 0 99.92391580015216%;
-  }
-
-  .icon--paints {
-    width: 474px;
-    height: 394px;
-    background-position: 0 0;
+    background-position: 59.48077555044364% 64.35996013099815%;
   }

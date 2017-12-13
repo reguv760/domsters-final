@@ -1,56 +1,107 @@
 /* Great way to deal with border-box issue */
 
-*, *:before, *:after
-{
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-html
-{
   font-size: 62.5%; /* 1REM = 10px */
 }
 
-body
-{
-  font-family: 'Karla', sans-serif;
-  font-size: 1.5rem;
-  background-color: $abbey;
+body {
+  padding: 0px;
+  margin: 0px auto;
+  background-color: $Mute-blue;
+  background-image: url('../../assets/bg/bg-main.png');
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+#page {
+  max-width: 1440px;
+  display: block;
+  position: relative;
+  margin: 0px auto;
+  background-color: $Dark-blue;
+}
+
+.clear {
+  clear: both;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 {
+  font-family:'Raleway';
+  font-weight: 800;
+  font-size: 5.5rem;
+  text-transform: capitalize;
+}
+
+h2::before {
+  content: ' ';
+  height: 0.5rem;
+  width:7rem;
+  background-color: $Orange;
+  position: absolute;
+  top: -1.5rem;
+}
+
+h3 {
+  font-family:'Karla';
+  font-weight: 700;
+  font-size: 2rem;
+  color: $White;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: $Medium-gray;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  transition: color ease-out 350ms;
+}
+
+a:hover {
+  color: $Medium-gray;
+  transition: color ease-out 350ms;
+}
+
+ul {
   margin: 0px;
   padding: 0px;
+  list-style: none;
 }
 
-/* parent container for content */
-.main-content
-{
-  max-width: 1440px;
-  width:100%;
-  margin: 0px auto;
-  padding: 2rem;
-  background-color:$white;
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $Medium-gray;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $Medium-gray;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $Medium-gray;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $Medium-gray;
 }
 
-h1, h2, h3
-{
-  /*font-family: 'Niconne', cursive;*/
-  font-family: 'Raleway', sans-serif;
+span.highlight {
+  color: $Tango;
 }
-
-h1 { font-size: 6rem; }
-h2 { font-size: 4rem; }
-h3 { font-size: 2.5rem; }
-
-/* easy way to make all your images responsive */
-img
-{
-  max-width: 100%;
-  height: auto;
-}
-
-/* links */
-a
-{
-  font-weight: bold;
-  text-decoration: none;
-  color: $blue;
-}
-

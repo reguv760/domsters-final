@@ -1,0 +1,79 @@
+
+.welcome {
+  width: 100%;
+  height: 600px;
+  padding-bottom: 60px;
+  position: relative;
+  display: block;
+  margin: 0px auto;
+  background-image: url('../../assets/bg/guitarist-bg.png');
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  @mixin atXL
+  {
+    height: 600px;
+    background-size: cover;
+    background-position: top right;
+  }
+
+  @mixin atDesktop
+  {
+    height: 500px;
+    background-size: cover;
+    background-position: top right;
+  }
+
+  @mixin atTablet
+  {
+    height: auto;
+    background-size: cover;
+    background-position: top left;
+    padding-top: 60px;
+  }
+
+  @mixin atMedium
+  {
+    height: auto;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 60px;
+  }
+
+  &__banner
+  {
+    position: relative;
+    top:10rem;
+
+    @mixin atTablet
+    {
+      top:0px;
+    }
+
+    @mixin atMedium
+    {
+      top:0px;
+    }
+  }
+
+  &__header
+  {
+    color: $off-White;
+  }
+
+  &__text
+  {
+    padding-left:6rem;
+    text-shadow: 1px 1px $Black;
+
+     @mixin atMedium
+    {
+      width:100%;
+    }
+  }
+}
+
+
+
+

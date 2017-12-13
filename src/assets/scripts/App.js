@@ -4,9 +4,10 @@ import $ from 'jquery';
 import MobileMenu from './modules/MobileMenu';
 import RevealOnScroll from './modules/RevealOnScroll';
 import StickyHeader from './modules/StickyHeader';
-import HighlightSection from './modules/HighlightSection';
+// import HighlightSection from './modules/HighlightSection';
 import SmoothScrolling from './modules/SmoothScrolling';
 import Modal from './modules/Modal';
+import Gallery from './modules/Gallery';
 
 // const mobileMenu = new MobileMenu();
 

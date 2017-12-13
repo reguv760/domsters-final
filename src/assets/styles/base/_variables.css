@@ -1,15 +1,21 @@
 /* domsters style color guide */
-$black: #232323;
-$abbey: #464748;
-$silver: #cccccc;
-$cod-gray: #151515;
-$pomegranite: #EF4A23;
-$tango: #f47e20;
-$amaranth: #ee2954;
 
-/* reference colors::: */;
-$red: #ff0000;
-$blue: #2f5572;
-$white: #eee;
-$yellow: #ff9900;
+$off-White: #f7f7f7;
+$Light-gray:#ecf0ef;
+$Medium-gray:#cccccc;
+$Dark-gray:#909291;
+$Gray-blue:#394048;
+$Navy:#131a22;
+$Dark-blue:#131b26;
+$Mute-blue:#182331;
+$Orange:#ef4a23;
+$Tango:#f47e20;
+$Purple:#725895;
+$White:#ffffff;
+$Black: #000000;
 
+
+/*Other
+-------------------*/
+$Shade-blue:#0c1116;
+$Tint-blue:#0f161e;

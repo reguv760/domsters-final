@@ -1,0 +1,194 @@
+
+/* Media queries
+----------------------------------------------------------------------------*/
+
+/* xl */
+@media (max-width: 1366px) {
+/*  #Welcome {
+    height: 600px;
+    background-size: cover;
+    background-position: top right;
+  }*/
+
+  .Photos {
+    height: 600;
+    background-size: cover;
+    background-position: top right;
+    padding-top: 60px;
+  }
+}
+
+/* desktop */
+@media (max-width: 1152px) {
+
+/*  .masthead__logo {
+    left:10px;
+  }
+
+  #Welcome {
+    height: 500px;
+    background-size: cover;
+    background-position: top right;
+  }*/
+
+  .Photos {
+    height: 500;
+    background-size: cover;
+    background-position: top right;
+    padding-top: 60px;
+  }
+
+}
+
+/* tablet */
+@media (max-width: 998px) {
+
+/*  .masthead__logo {
+    left:0px;
+  }
+
+  .col-50  {
+    width: 75%;
+    float: left;
+  }
+
+   body {
+     padding: 0px;
+   }
+
+   #Welcome {
+     height: auto;
+     background-size: cover;
+     background-position: top left;
+     padding-top: 60px;
+   }
+
+   .Welcome__banner {
+     top:0px;
+   }
+
+   .Photos {
+     height: auto;
+     background-size: cover;
+     background-position: top right;
+     padding-top: 60px;
+   }
+
+   #Contact {
+      height: auto;
+    }
+
+    #Contact .Contact__social {
+      width: 25%;
+    }
+
+    .Contact__social a {
+      margin-bottom: 20px;
+    } */
+
+}
+
+
+
+@media (max-width: 772px) {
+
+   /*.masthead__logo {
+    left:0px;
+  }
+
+  body {
+    padding: 0px;
+  }
+
+ .col-50  {
+    width: 100%;
+    float: left;
+  }
+
+  .col-60 {
+    width: 100%;
+    float: left;
+  }
+
+  .col-40 {
+    width: 100%;
+    float: left;
+  }
+  #Welcome {
+    height: auto;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 60px;
+  }
+
+  .Welcome__banner {
+    top:0px;
+  } */
+
+
+ /* .About {
+    height: auto;
+    padding-bottom: 60px;
+  }
+
+  .About__info {
+    padding-bottom: 60px;
+  }
+
+  .About__info-desc .desc {
+    padding-right: 0px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+
+  .About__live {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+
+  .Photos {
+    height: auto;
+    background-size: cover;
+    background-position: top right;
+    padding-top: 60px;
+  }
+  */
+
+
+
+/*  #Contact {
+     height: auto;
+   }
+
+   #Contact .col-50 {
+     width: 100%;
+     float: none;
+   }
+
+  .Contact__social {
+    width: 100%;
+    float: none;
+  }
+
+   .Contact__social a {
+     margin-bottom: 20px;
+   }
+
+   .Contact__form {
+     padding-left: 0px;
+   }
+
+   .name {
+     margin-right:0px;
+   }
+
+   .email {
+     margin-left:0px;
+   }
+
+   .Contact__form-body_Input {
+     width: 100%;
+     float: none;
+   }*/
+}
