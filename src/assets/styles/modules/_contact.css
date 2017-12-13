@@ -96,7 +96,7 @@
    }
 
    &__form-body_Input {
-      width: 100%;
+      width:48%;
       font-family: 'Karla';
       font-size: 13px;
       font-weight: 700;
@@ -165,3 +165,13 @@ button:focus {
    background-color: $Tango;
    transition: background-color ease-out 350ms;
  }
+
+.name
+ {
+  margin-right:2%;
+}
+
+.email
+{
+  margin-left:0px;
+}
