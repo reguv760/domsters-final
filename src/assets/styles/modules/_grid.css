@@ -29,6 +29,12 @@
 {
   width: 60%;
   float: left;
+
+  @mixin atMedium
+  {
+    width: 100%;
+    float: left;
+  }
 }
 
 .col-50
@@ -47,6 +53,12 @@
 {
   width: 40%;
   float: left;
+
+  @mixin atMedium
+  {
+    width: 100%;
+    float: left;
+  }
 }
 
 .col-33

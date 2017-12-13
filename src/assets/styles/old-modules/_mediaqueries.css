@@ -4,11 +4,11 @@
 
 /* xl */
 @media (max-width: 1366px) {
-  #Welcome {
+/*  #Welcome {
     height: 600px;
     background-size: cover;
     background-position: top right;
-  }
+  }*/
 
   .Photos {
     height: 600;
@@ -21,7 +21,7 @@
 /* desktop */
 @media (max-width: 1152px) {
 
-  .masthead__logo {
+/*  .masthead__logo {
     left:10px;
   }
 
@@ -29,7 +29,7 @@
     height: 500px;
     background-size: cover;
     background-position: top right;
-  }
+  }*/
 
   .Photos {
     height: 500;
@@ -43,7 +43,7 @@
 /* tablet */
 @media (max-width: 998px) {
 
-  .masthead__logo {
+/*  .masthead__logo {
     left:0px;
   }
 
@@ -65,7 +65,7 @@
 
    .Welcome__banner {
      top:0px;
-   }
+   } */
 
    .Photos {
      height: auto;
@@ -92,7 +92,7 @@
 
 @media (max-width: 772px) {
 
-  .masthead__logo {
+   /*.masthead__logo {
     left:0px;
   }
 
@@ -100,7 +100,7 @@
     padding: 0px;
   }
 
-  /*.col-50  {
+ .col-50  {
     width: 100%;
     float: left;
   }
@@ -113,8 +113,7 @@
   .col-40 {
     width: 100%;
     float: left;
-  }*/
-
+  }
   #Welcome {
     height: auto;
     background-size: cover;
@@ -124,7 +123,8 @@
 
   .Welcome__banner {
     top:0px;
-  }
+  } */
+
 
  /* .About {
     height: auto;

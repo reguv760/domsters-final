@@ -7,12 +7,17 @@
    padding-top: 6rem;
    padding-bottom: 6rem;
 
-   background-image:url("../../assets/images/icons/backdrop_guitar.svg");
-   background-size:cover; /* width + height */
+   background-image:url("../../assets/images/icons/JSD_Logo.svg");
+   background-size:33% 33%; /* width + height */
 
    @mixin atMedium
    {
      height: auto;
+   }
+
+   @mixin atTablet
+   {
+      height: auto;
    }
 
    &__social {
