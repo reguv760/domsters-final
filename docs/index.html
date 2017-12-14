@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+     <!--<link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png"> -->
+
+   <!--  <link rel="stylesheet" href="assets/styles/styles.css"> -->
+
+    <link rel="stylesheet" href="assets/styles/styles-ec509e209c.css"/>
+
+    <!-- build:js assets/scripts/Vendor.js
+    <script src="/temp/scripts/Vendor.js"></script> -->
+    
+
+    <script>
+      function openModal() {
+        document.getElementById('myModal').style.display = "block";
+      }
+
+      function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+      }
+
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
+      </script>
+
+    <title>Jay Skript And The Domsters</title>
+  </head>
+  <body>
+    <main id="page">
+
+      <header class="masthead">
+        <div class="masthead__strings">
+          <div class="string one"></div>
+          <div class="string two"></div>
+          <div class="string three"></div>
+          <div class="string four"></div>
+        </div>
+
+        <a href="index.html"><img class="masthead__logo" src="assets/images/icons/domsters_logo.svg" alt="Domsters-Logo"></a>
+      </header>
+
+      <nav class="">
+        <a class="active" href="#Welcome">Welcome</a>
+        <a href="#Band">The Band</a>
+        <a href="#Gallery">Gallery</a>
+        <a href="#Footer-wrap">Contact Us</a>
+      </nav>
+
+      <section id="Welcome" class="welcome">
+        <div class="grid-1024">
+          <div class="welcome__banner col-50">
+            <h2 class="welcome__header">Let's Rock!</h2>
+            <p class="welcome__text">
+              Welcome to the official website of Jay Skript and the Domsters.
+              Rock out and learn more about the band as you embark with them on an epic adventure to conquering the world.
+            </p>
+
+            <p class="welcome__text">
+              View photos of the band. Check out tour dates and watch them perform live. Don’t forget to contact the band for more info.
+            </p>
+          </div>
+        </div>
+
+        <div class="clear"></div>
+        </div>
+      </section>
+
+      <section id="Band">
+        <div class="title-header title-header--blue">
+          <div class="grid-1024">
+            <h2>The Band.</h2>
+          </div>
+        </div>
+
+        <div class="About">
+          <div class="grid-1024">
+
+            <!-- main container-->
+            <div class="About__info">
+
+              <!-- tab interface container-->
+              <div class="About__info-tab">
+                <a class="flagged" href=""><span class="icon-guitar"></span></a>
+                <a href=""><span class="icon-drums"></span></a>
+              </div>
+
+              <!--description container -->
+              <div class="About__info-desc col-60">
+
+                <div id="jayskript" class="About__desc">
+                  <h3>Jay Skript</h3>
+                  <p>Jay Skript is going to rock your world!</p>
+
+                  <p>Together with his compatriots The Domsters, Jay is set for world domination. Just you wait and see.</p>
+
+                  <p>Jay Skript has been on the scene since the mid nineties. His talent hasn't always been recognized or fully appreciated. In the early days, he was often unfavorably compared to bigger, similarly-named artists. That's all in the past now.</p>
+                </div>
+
+                <div id="domsters" class="About__desc">
+                  <h3>The Domsters</h3>
+                  <p>The Domsters have been around, in one form or another, for almost as long. It's only in the past few years that The Domsters have settled down to their current, stable line-up. Now they're a rock-solid bunch: methodical and dependable.</p>
+                </div>
+              </div>
+
+              <div class="About__live col-40">
+                <h3>Tour Dates</h3>
+
+                <table class="About__live-table">
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>City</th>
+                      <th>Venue</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr class="tr-active">
+                      <td>June 9th</td>
+                      <td>Portland, OR</td>
+                      <td>Crystal Ballroom</td>
+                    </tr>
+
+                    <tr class="tr-active">
+                      <td>June 10th</td>
+                      <td>Seattle, WA</td>
+                      <td>Crocodile Cafe</td>
+                    </tr>
+
+                    <tr class="tr-active">
+                      <td>June 12th</td>
+                      <td>Sacramento, CA</td>
+                      <td>Torch Club</td>
+                    </tr>
+
+                    <tr class="tr-active">
+                      <td>June 17th</td>
+                      <td>Austin, TX</td>
+                      <td>Speakeasy</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="clear"></div>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="Gallery">
+        <div class="title-header title-header--white">
+          <div class="grid-1024">
+            <h2>Photo Gallery.</h2>
+          </div>
+        </div>
+
+        <div class="Photos">
+          <div class="grid-1024">
+
+            <div class="row">
+              <div class="column">
+                <img src="./assets/images/photos/bassist.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img src="./assets/images/photos/concert.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img src="./assets/images/photos/crowd.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img src="./assets/images/photos/thumbnail_crowdshot.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img src="./assets/images/photos/guitarist.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img src="./assets/images/photos/thumbnail_darkstage.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img src="./assets/images/photos/thumbnail_rockinout.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+              </div>
+              <div class="column">
+                <img src="./assets/images/photos/thumbnail_trick-play.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+              </div>
+            </div>
+
+            <div id="myModal" class="modal">
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+
+                <div class="mySlides">
+                  <div class="numbertext">1 / 8</div>
+                  <img src="./assets/images/photos/bassist.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">2 / 8</div>
+                  <img src="./assets/images/photos/concert.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">3 / 8</div>
+                  <img src="./assets/images/photos/crowd.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">4 / 8</div>
+                  <img src="./assets/images/photos/crowdshot.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">5 / 8</div>
+                  <img src="./assets/images/photos/guitarist.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">6 / 8</div>
+                  <img src="./assets/images/photos/darkstage.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">7 / 8</div>
+                  <img src="./assets/images/photos/rockinout.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">8 / 8</div>
+                  <img src="./assets/images/photos/trick-play.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+
+
+                <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="./assets/images/photos/bassist.jpg" style="width:100%" onclick="currentSlide(1)" alt="keepin that bassline saucy">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/images/photos/concert.jpg" style="width:100%" onclick="currentSlide(2)" alt="CROWD -->">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/images/photos/crowd.jpg" style="width:100%" onclick="currentSlide(3)" alt="GOES -->">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/images/photos/crowdshot.jpg" style="width:100%" onclick="currentSlide(4)" alt="WILD.">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/images/photos/guitarist.jpg" style="width:100%" onclick="currentSlide(5)" alt="calm face. manic digits">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/images/photos/darkstage.jpg" style="width:100%" onclick="currentSlide(6)" alt="bringing the lights low for the ballad, 'Skyline' ">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/images/photos/rockinout.jpg" style="width:100%" onclick="currentSlide(7)" alt="aiming carefully at the target he intends to rock">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="./assets/images/photos/trick-play.jpg" style="width:100%" onclick="currentSlide(8)" alt="showing off on-set of their newest single, 'Like Hendrix' ">
+                </div>
+              </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <footer id="Footer-wrap">
+        <div class="title-header title-header--blue">
+          <div class="grid-1024">
+            <h2>Contact Us.</h2>
+          </div>
+        </div>
+
+        <div id="Contact" class="contact">
+          <div class="grid-1024">
+
+            <div class="contact__social">
+              <h3>Connect</h3>
+              <a target="_blank" href="#"><div class="contact__social--instagram"></div></a>
+              <a target="_blank" href="#"><div class="contact__social--facebook"></div></a>
+              <a target="_blank" href="#"><div class="contact__social--twitter"></div></a>
+              <a target="_blank" href="#"><div class="contact__social--youtube"></div></a>
+            </div>
+
+            <div class="contact__form">
+              <h3>Get in touch</h3>
+
+              <form action="contact__form-body">
+                <input class="contact__form-body_Input name" type="text" name="firstname" placeholder="FIRST AND LAST NAME">
+
+                <input class="contact__form-body_Input email" type="email" name="lastname" placeholder="EMAIL ADDRESS">
+
+                <textarea name="message" rows="7" placeholder="TYPE MESSAGE"></textarea>
+
+                <button class="contact__form-body_Btn" type="submit">SEND MESSAGE</button>
+              </form>
+            </div>
+
+            <div class="clear"></div>
+          </div>
+        </div>
+
+        <div class="epilogue">
+          <span class="highlight">&copy; Domsters -</span> 2018. All Rights Reserved.
+        </div>
+      </footer>
+
+
+    
+
+    </main>
+  </body>
+</html>
+
+
